@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#DFE3BA"
+        android:background="#B5DAEC"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,12 +29,12 @@
 
     <Button
         android:id="@+id/play"
-        style="@android:style/Widget.Button"
+        style="@android:style/Widget.Material.Button"
         android:layout_width="match_parent"
         android:layout_height="80sp"
         android:layout_marginTop="80dp"
         android:text="@string/Hw27_start"
-        android:textColor="#983131"
+        android:textColor="#3E1980"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +48,7 @@
         android:layout_height="80sp"
         android:layout_marginTop="30dp"
         android:text="@string/Hw27_stop"
-        android:textColor="#983131"
+        android:textColor="#3E1980"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
